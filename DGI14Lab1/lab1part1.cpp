@@ -61,8 +61,9 @@ int main(int argc, char* argv[])
 	while (NoQuitMessageSDL())
 	{
 		Draw();
+		SDL_Delay(200);
 	}
-	SDL_SaveBMP(screen, "screenshot.bmp");
+	SDL_SaveBMP(screen, "part1.bmp");
 	
 	return 0;
 }
